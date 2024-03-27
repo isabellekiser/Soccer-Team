@@ -83,6 +83,7 @@ Query 2 aggregates data from a training session database, counting the occurrenc
 
 Query 3:
 # ![query 3](https://github.com/isabellekiser/Soccer-Team/assets/149964200/f2eb3074-85a9-47a3-9c65-27fddb524384)
+Query  3 combines data from two tables, "Team" and "TrainingSession", to provide managerial insights into team training activities. By joining the tables based on matching team IDs, the query counts the number of training sessions associated with each team and presents this information alongside the team ID and name. This allows managers to assess the level of training engagement within each team, identify high-performing teams that are actively participating in training sessions, and pinpoint teams that may require additional support or encouragement to engage in training activities. 
 
 
 Query 4:
@@ -91,15 +92,15 @@ Query 4 retrieves the genders of members whose memberships are set to end in 202
 
 Query 5:
 # ![query 5](https://github.com/isabellekiser/Soccer-Team/assets/149964200/8b6ba846-7031-419c-94c1-34856b74d720)
-
+This SQL query retrieves data about matches, including their names and attendance figures, while also calculating the percentage of the facility filled for each match. By joining the Matches table with the Facility table based on matching facility IDs, it ensures accurate attendance data aligned with the corresponding facility capacity. The WHERE clause filters only matches with a status of "TRUE", ensuring the inclusion of active matches. Results are then ordered by the calculated percentage of facility filled, with higher percentages appearing first. The query's concise yet comprehensive structure enables efficient analysis of match attendance and facility utilization.
 
 Query 6:
 # ![query 6](https://github.com/isabellekiser/Soccer-Team/assets/149964200/cdca4ca4-8794-4772-9a60-a7a1cc5642f0)
-
+This query selects the full name,  salary, and role members.  The query uses a subquery to filter results to coaches whose salary is higher than the average salary of all coaches. The query concludes by ordering the results from highest salary to lowest. This query is important because it shows the distribution of salaries amongst coaches. This information could be used to determine the salaries of future coaches. 
 
 Query 7:
 # ![query 7](https://github.com/isabellekiser/Soccer-Team/assets/149964200/72d5c9e0-999e-4d5e-b2c6-f522c0d96e3e)
-
+This query selects the product name and then multiplies the product price and amount of the product sold and lists them in a category called “Top 3 Most Profitable Jerseys”.  The where clause specifically filters the results to only include jerseys. The results are then ordered from the highest-selling jersey to the lowest-selling out of the top 3. This is important from a merchandising standpoint to understand your best-selling products. 
 
 Query 8:
 # ![query 8](https://github.com/isabellekiser/Soccer-Team/assets/149964200/ce3c7421-68c6-48f3-9448-09d874c78a9c)
