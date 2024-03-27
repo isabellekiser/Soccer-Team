@@ -104,14 +104,17 @@ This query selects the product name and then multiplies the product price and am
 
 Query 8:
 # ![query 8](https://github.com/isabellekiser/Soccer-Team/assets/149964200/ce3c7421-68c6-48f3-9448-09d874c78a9c)
+This query selects the team name and salary of each team. This query requires two joins in order to get the data from teams and members of those teams. The query also filters out the results by only including those teams whose team level is higher or equal to 3. The order by clause filters the results from highest salary to lowest.  This query is useful for a manager of the league because it lists the most expensive teams, which is useful for analyzing expenses by team. 
 
 
 Query 9:
 # ![query 9](https://github.com/isabellekiser/Soccer-Team/assets/149964200/ce6d7ba0-b8cf-482f-8670-64e769fafd63)
+This query lists the member ID, the last name of members, and their total transaction amount.  The having clause limits the results to only include transaction amounts greater than 400 dollars. In addition, There is a join clause to obtain data on the transactions. From a managerial perspective, this query is important because it can give you an idea of who your highest spending customers are.
 
 
 Query 10:
 # ![query 10](https://github.com/isabellekiser/Soccer-Team/assets/149964200/4e37e059-22b8-4e50-964c-632b93956060)
+This query selects the league ID, league name, type of facility, and counts the number of matches played in each type of facility by league. This query required 4 joins to gather data from the respective tables. The results are then sorted by league Id, the league name and the type of facility. From a managerial standpoint, this query is useful to assess the number of matches being played in each facility by league. If a number is too high or low, the manager could make adjustments to make the number of  matches even across different facilities. 
 
 
 ### Database information:
