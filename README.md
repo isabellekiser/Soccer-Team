@@ -92,7 +92,7 @@ Query 4 retrieves the genders of members whose memberships are set to end in 202
 
 Query 5:
 # ![query 5](https://github.com/isabellekiser/Soccer-Team/assets/149964200/8b6ba846-7031-419c-94c1-34856b74d720)
-This SQL query retrieves data about matches, including their names and attendance figures, while also calculating the percentage of the facility filled for each match. By joining the Matches table with the Facility table based on matching facility IDs, it ensures accurate attendance data aligned with the corresponding facility capacity. The WHERE clause filters only matches with a status of "TRUE", ensuring the inclusion of active matches. Results are then ordered by the calculated percentage of facility filled, with higher percentages appearing first. The query's concise yet comprehensive structure enables efficient analysis of match attendance and facility utilization.
+This SQL query retrieves data about matches, including their names and attendance figures, while also calculating the percentage of the facility filled for each match. Joining the Matches table with the Facility table based on matching facility IDs ensures accurate attendance data aligned with the corresponding facility capacity. The WHERE clause filters only matches with a status of "TRUE", ensuring the inclusion of active matches. Results are then ordered by the calculated percentage of facilities filled, with higher percentages appearing first. The query's concise yet comprehensive structure enables efficient analysis of match attendance and facility utilization.
 
 Query 6:
 # ![query 6](https://github.com/isabellekiser/Soccer-Team/assets/149964200/cdca4ca4-8794-4772-9a60-a7a1cc5642f0)
@@ -104,17 +104,17 @@ This query selects the product name and then multiplies the product price and am
 
 Query 8:
 # ![query 8](https://github.com/isabellekiser/Soccer-Team/assets/149964200/ce3c7421-68c6-48f3-9448-09d874c78a9c)
-This query selects the team name and salary of each team. This query requires two joins in order to get the data from teams and members of those teams. The query also filters out the results by only including those teams whose team level is higher or equal to 3. The order by clause filters the results from highest salary to lowest.  This query is useful for a manager of the league because it lists the most expensive teams, which is useful for analyzing expenses by team. 
+This query selects the team name and salary of each team. This query requires two joins to get the data from teams and members of those teams. The query also filters out the results by only including those teams whose team level is higher or equal to 3. The order by clause filters the results from highest salary to lowest.  This query is useful for a manager of the league because it lists the most expensive teams, which is useful for analyzing expenses by team. 
 
 
 Query 9:
 # ![query 9](https://github.com/isabellekiser/Soccer-Team/assets/149964200/ce6d7ba0-b8cf-482f-8670-64e769fafd63)
-This query lists the member ID, the last name of members, and their total transaction amount.  The having clause limits the results to only include transaction amounts greater than 400 dollars. In addition, There is a join clause to obtain data on the transactions. From a managerial perspective, this query is important because it can give you an idea of who your highest spending customers are.
+This query lists the member ID, the last name of members, and their total transaction amount.  The having clause limits the results to only include transaction amounts greater than 400 dollars. In addition, there is a join clause to obtain data on the transactions. From a managerial perspective, this query is important because it can give you an idea of who your highest-spending customers are.
 
 
 Query 10:
 # ![query 10](https://github.com/isabellekiser/Soccer-Team/assets/149964200/4e37e059-22b8-4e50-964c-632b93956060)
-This query selects the league ID, league name, type of facility, and counts the number of matches played in each type of facility by league. This query required 4 joins to gather data from the respective tables. The results are then sorted by league Id, the league name and the type of facility. From a managerial standpoint, this query is useful to assess the number of matches being played in each facility by league. If a number is too high or low, the manager could make adjustments to make the number of  matches even across different facilities. 
+This query selects the league ID, league name, type of facility, and counts the number of matches played in each type of acility by league. This query required 4 joins to gather data from the respective tables. The results are then sorted by leagueId, the league name, and the type of facility. From a managerial standpoint, this query is useful for assessing the number of matches played in each facility by league. If a number is too high or low, the manager could adjust the number of  matches even across different facilities. 
 
 
 ### Database information:
