@@ -100,21 +100,20 @@ The SQL query provides a list of coaches who earn above the average salary of ot
 
 Query 7:
 # ![query 7](https://github.com/isabellekiser/Soccer-Team/assets/149964200/72d5c9e0-999e-4d5e-b2c6-f522c0d96e3e)
-This query selects the product name and then multiplies the product price and amount of the product sold and lists them in a category called “Top 3 Most Profitable Jerseys”.  The where clause specifically filters the results to only include jerseys. The results are then ordered from the highest-selling jersey to the lowest-selling out of the top 3. This is important from a merchandising standpoint to understand your best-selling products. 
+The SQL query in question identifies the top three most profitable jerseys by multiplying the sales price by the number sold, specifically filtering for items categorized as "jerseys." It's crucial for a soccer team's merchandise management because it highlights which jerseys are the biggest revenue generators, aiding in inventory decisions and marketing focus. The results, ordered from highest to lowest profit, allow management to pinpoint successful products and strategize on how to leverage this information for future sales and promotions.
 
 Query 8:
 # ![query 8](https://github.com/isabellekiser/Soccer-Team/assets/149964200/ce3c7421-68c6-48f3-9448-09d874c78a9c)
-This query selects the team name and salary of each team. This query requires two joins to get the data from teams and members of those teams. The query also filters out the results by only including those teams whose team level is higher or equal to 3. The order by clause filters the results from highest salary to lowest.  This query is useful for a manager of the league because it lists the most expensive teams, which is useful for analyzing expenses by team. 
-
+The SQL query calculates the combined salaries of members in each team, specifically for those teams at level 3 or higher, and sorts the teams by their total salary expenditure in descending order. This information is crucial for a league manager to understand the financial commitments of different teams, assisting in budget comparisons and financial health assessments across the league. High-salary teams can be a focus for investment analysis and revenue generation strategies.
 
 Query 9:
 # ![query 9](https://github.com/isabellekiser/Soccer-Team/assets/149964200/ce6d7ba0-b8cf-482f-8670-64e769fafd63)
-This query lists the member ID, the last name of members, and their total transaction amount.  The having clause limits the results to only include transaction amounts greater than 400 dollars. In addition, there is a join clause to obtain data on the transactions. From a managerial perspective, this query is important because it can give you an idea of who your highest-spending customers are.
-
+The SQL query identifies club members who have spent more than $400 in total transactions, highlighting the highest spending individuals. This insight is valuable for recognizing and potentially rewarding top patrons, or for targeted marketing efforts. It's also useful for financial analysis, as tracking spending patterns can inform budgetary decisions and revenue forecasts for a soccer club.
 
 Query 10:
 # ![query 10](https://github.com/isabellekiser/Soccer-Team/assets/149964200/4e37e059-22b8-4e50-964c-632b93956060)
-This query selects the league ID, league name, type of facility, and counts the number of matches played in each type of acility by league. This query required 4 joins to gather data from the respective tables. The results are then sorted by leagueId, the league name, and the type of facility. From a managerial standpoint, this query is useful for assessing the number of matches played in each facility by league. If a number is too high or low, the manager could adjust the number of  matches even across different facilities. 
+
+The SQL query retrieves the count of matches played at each facility type for every league, indicating which types of pitches are most frequently used. This information is valuable for league managers to optimize the use of facilities and potentially direct maintenance and investment efforts where needed. Understanding facility usage patterns also aids in scheduling and could influence future facility developments or enhancements.
 
 
 ### Database information:
