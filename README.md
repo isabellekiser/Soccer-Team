@@ -96,7 +96,7 @@ This SQL query retrieves data about matches, including their names and attendanc
 
 Query 6:
 # ![query 6](https://github.com/isabellekiser/Soccer-Team/assets/149964200/cdca4ca4-8794-4772-9a60-a7a1cc5642f0)
-This query selects the full name,  salary, and role members.  The query uses a subquery to filter results to coaches whose salary is higher than the average salary of all coaches. The query concludes by ordering the results from highest salary to lowest. This query is important because it shows the distribution of salaries amongst coaches. This information could be used to determine the salaries of future coaches. 
+The SQL query provides a list of coaches who earn above the average salary of other coaches, highlighting the club's financial commitments to its coaching staff. It's a useful tool for budgeting, ensuring competitive compensation, and assessing the correlation between salary and coach performance. The data aids in financial planning and helps establish benchmarks for future salary negotiations. For a pro soccer team, this information is crucial for maintaining a balanced budget while ensuring the coaching staff is well-compensated and effective.
 
 Query 7:
 # ![query 7](https://github.com/isabellekiser/Soccer-Team/assets/149964200/72d5c9e0-999e-4d5e-b2c6-f522c0d96e3e)
